@@ -2,7 +2,7 @@
   "name": "visite_virtuelle",
   "version": "1.0.0",
   "description": "visite virtuelle",
-  "main": "src/index.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,6 +15,7 @@
   "author": "ao627515",
   "license": "ISC",
   "dependencies": {
+    "gsap": "^3.13.0",
     "three": "^0.176.0"
   },
   "devDependencies": {

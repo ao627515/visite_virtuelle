@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #333333;
+  overflow: hidden;
+}
+
+.tooltip {
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  opacity: 0;
+  transform: translate3d(-50%, -110%, 0);
+  transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.tooltip.is-active {
+  opacity: 1;
+  transform: translate3d(-50%, 50%, 0);
+}
